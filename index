@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Contact Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    .header {
+      background-color: #0a3956;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    .header p {
+      margin: 10px 0 20px;
+      font-size: 16px;
+    }
+    .btn {
+      background-color: white;
+      color: #0a3956;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .section {
+      background: white;
+      max-width: 500px;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    h2 {
+      color: #0a3956;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    p {
+      margin: 5px 0;
+      color: #333;
+    }
+    .icon {
+      margin-right: 6px;
+    }
+    .contact-info {
+      margin-top: 10px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>We help you find a home.</h1>
+    <p>Contáctame y te ayudare a encontrar las refacciones para tus motores o para rectificar tus motores.</p>
+    <a class="btn" href="#">LATEST OFFERS</a>
+  </div>
+
+  <div class="section">
+    <h2>Horario</h2>
+    <p><strong>Mon:</strong> 10:00 am - 5:00 pm</p>
+    <p style="color: green;">Open Now</p>
+  </div>
+
+  <div class="section">
+    <h2>Location</h2>
+    <p>Main St 1200</p>
+    <p>Dallas, TX 75202</p>
+    <p>United States</p>
+    <a href="#" style="color:#0a3956; text-decoration:none; font-weight:bold;">Show on Map</a>
+  </div>
+
+  <div class="section">
+    <h2>Contact</h2>
+    <p><strong>Everardo Sanchez Vazquez</strong></p>
+    <p>(214) 3456-34567</p>
+    <p><a href="mailto:eschz@camdirefacciones.com">eschz@camdirefacciones.com</a></p>
+    <p><a href="https://camdirefacciones.com" target="_blank">www.camdirefacciones.com</a></p>
+  </div>
+</body>
+</html>
